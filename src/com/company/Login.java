@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 public class Login extends JFrame {
 
-
+//Clase para ingresar
     private JPanel panel1;
     private JPasswordField txtcontraseña;
     private JButton btningresar;
@@ -15,6 +15,7 @@ public class Login extends JFrame {
     private JLabel usuarioLabel;
     private JTextField txtUsuario;
 
+    //cargar las interfaces graficas 
     public Login(){
         super("Login");
         setContentPane(panel1);

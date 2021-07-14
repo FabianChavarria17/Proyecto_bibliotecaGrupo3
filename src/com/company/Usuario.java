@@ -4,6 +4,7 @@ import java.util.Vector;
 
 public class Usuario
 {
+    /*Clase usuario aca guardamos y administramos a los nuevos usuarios*/
     private String username;
     private String password;
     private String rango;
@@ -32,6 +33,7 @@ public class Usuario
         this.rango = rango;
     }
 
+    //Metodo verificar, con este metodo sabemos si es un usuario nuevo y podemos verificar que no exista en el sistema
     public static int VerificarUsuarioNuevo(String usuario){
         Vector lista = mostrar();
         Usuario obj;
@@ -43,6 +45,8 @@ public class Usuario
             }
             return -1;
     }
+
+    //Verifca que el usuario exista en el sistema
     public static int VerificarLogueo(String usuario, String contraseña){
         Vector lista = mostrar();
         Usuario obj;

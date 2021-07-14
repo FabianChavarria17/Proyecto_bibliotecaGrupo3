@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.MainMenu">
+  <grid id="27dc6" binding="panel3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="220"/>
+    </constraints>
+    <properties>
+      <background color="-525058"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="18b2" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Bienvenido Usuario"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

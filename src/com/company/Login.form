@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Login">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="462" height="117"/>
+    </constraints>
+    <properties>
+      <background color="-525058"/>
+      <enabled value="false"/>
+      <foreground color="-16777216"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="93429" class="javax.swing.JLabel" binding="usuarioLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Usuario:"/>
+        </properties>
+      </component>
+      <component id="c0ab" class="javax.swing.JTextField" binding="txtUsuario">
+        <constraints/>
+        <properties>
+          <background color="-3289651"/>
+          <columns value="25"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cb8d2" class="javax.swing.JLabel" binding="contraseñaLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="Contraseña:"/>
+        </properties>
+      </component>
+      <component id="b0867" class="javax.swing.JPasswordField" binding="txtcontraseña">
+        <constraints/>
+        <properties>
+          <background color="-3289651"/>
+          <columns value="20"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6c6f0" class="javax.swing.JButton" binding="btningresar">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-3289651"/>
+          <horizontalAlignment value="0"/>
+          <opaque value="true"/>
+          <text value="Ingresar"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="896ac" class="javax.swing.JButton" binding="btnregistrar">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-525058"/>
+          <text value="&amp;Registrar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

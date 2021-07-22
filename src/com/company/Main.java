@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Main {
 //Andrey fuentes
-    
+
     public static void main(String[] args)
     {
         Login abrir = new Login();

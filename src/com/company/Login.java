@@ -15,7 +15,7 @@ public class Login extends JFrame {
     private JLabel usuarioLabel;
     private JTextField txtUsuario;
 
-    //cargar las interfaces graficas 
+    //cargar las interfaces graficas
     public Login(){
         super("Login");
         setContentPane(panel1);

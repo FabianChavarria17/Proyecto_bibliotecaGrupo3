@@ -1,4 +1,6 @@
 package com.company;
 
-public class DevolverLibro {
+import javax.swing.*;
+
+public class DevolverLibro extends JFrame {
 }

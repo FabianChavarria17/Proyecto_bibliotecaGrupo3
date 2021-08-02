@@ -35,8 +35,26 @@ public class MainMenu extends JFrame {
         });
 
 
+        btnSalir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+            MainMenu.this.dispose();
+            }
+        });
+        btnDevolver.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
 
-
+            }
+        });
+        btnDevolver.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                DevolverLibro abrir = new DevolverLibro();
+                abrir.setVisible(true);
+                MainMenu.this.dispose();
+            }
+        });
     }
 
 

@@ -15,7 +15,7 @@ public class MainMenu extends JFrame {
 
 
 
-    
+
 
     public MainMenu(){
         setContentPane(panel3);
@@ -23,10 +23,12 @@ public class MainMenu extends JFrame {
         this.setSize(400,300);
         this.setLocation(800,400);
 
-        //Buscador
-        txtBuscar.addActionListener(new ActionListener() {
+
+        btnBuscar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                String buscar = txtBuscar.getText();
+
 
 
             }

@@ -79,8 +79,9 @@ public class Catalogo{
 
         //Catalogo librosSolicitados[] = new Catalogo[5];
 
-        BuscarLibro(librosregistrados);
+        //BuscarLibro(librosregistrados);
         SolicitarLibro(librosregistrados);
+        DevolverLibro(librosregistrados);
     }
         public static void BuscarLibro(Catalogo[] librosregistrados){
             String ISBN = "1010";
@@ -123,7 +124,30 @@ public class Catalogo{
 
         }
 
+        public static void DevolverLibro(Catalogo[] librosregistrados){
+        String titulo;
 
+
+
+        titulo = JOptionPane.showInputDialog("Digite el titulo del libro:");
+
+        for (int i = 0; i < librosregistrados.length; i++){
+            if(titulo.equals(librosregistrados[i].tituloLibro)){
+                if(librosregistrados[i].dispLibro == false){
+                    JOptionPane.showMessageDialog(null,"Libro devuelto");
+                    librosregistrados[i].dispLibro = true;
+                    System.out.println(librosregistrados[i].dispLibro);
+
+                } else if (librosregistrados[i].dispLibro == true){
+                    JOptionPane.showMessageDialog(null,"Libro ya fue devuelto");
+                }
+
+
+            }
+        }
+
+
+    }
 
 }
 

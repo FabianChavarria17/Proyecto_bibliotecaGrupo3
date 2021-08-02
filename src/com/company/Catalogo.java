@@ -6,7 +6,6 @@ import com.sun.tools.javac.Main;
 public class Catalogo{
 
 
-
     String codigoISBNLibro;
     String tituloLibro;
     String AutorLibro;

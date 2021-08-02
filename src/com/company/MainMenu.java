@@ -3,7 +3,7 @@ package com.company;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import com.company.*;
+import com.company.Catalogo;
 
 public class MainMenu extends JFrame {
     private JPanel panel3;
@@ -15,6 +15,8 @@ public class MainMenu extends JFrame {
 
 
 
+    
+
     public MainMenu(){
         setContentPane(panel3);
         this.setVisible(true);
@@ -25,6 +27,7 @@ public class MainMenu extends JFrame {
         txtBuscar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
 
             }
         });

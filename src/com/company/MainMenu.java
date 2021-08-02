@@ -28,6 +28,7 @@ public class MainMenu extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String buscar = txtBuscar.getText();
+                String dispo = "";
 
                 Catalogo libro1 = new Catalogo("1010", "Don Quijote", "Rafael Garcia Marquez", "Patito",true);
                 Catalogo libro2 = new Catalogo("1011", "Harry Potter", "Mario Martinez", "Universal",true);
@@ -44,13 +45,17 @@ public class MainMenu extends JFrame {
                 librosregistrados[3] = libro4;
                 librosregistrados[4] = libro5;
 
+
                 for (int i = 0; i < librosregistrados.length; i++){
-                    if(buscar.equals(librosregistrados[i].codigoISBNLibro)){
-                        JOptionPane.showMessageDialog(null, "Editorial: " + librosregistrados[i].editoralLibro + "\n" + "Autor: " + librosregistrados[i].AutorLibro + "\n" + "Titulo: " + librosregistrados[i].tituloLibro + "\n" + "Codigo ISBN: " + librosregistrados[i].codigoISBNLibro + "\n" +"Disponibilidad: " + librosregistrados[i].dispLibro  );
-                        System.out.println(librosregistrados[i].AutorLibro);
-                        System.out.println(librosregistrados[i].editoralLibro);
-                        System.out.println(librosregistrados[i].tituloLibro);
-                        System.out.println(librosregistrados[i].dispLibro);
+                    if(buscar.equals(librosregistrados[i].codigoISBNLibro) || buscar.equals(librosregistrados[i].tituloLibro)){
+                        if(librosregistrados[i].dispLibro == true){
+                            dispo += "Si";
+
+
+                        } else{
+                            dispo += "No";
+                        }
+                        JOptionPane.showMessageDialog(null, "Editorial: " + librosregistrados[i].editoralLibro + "\n" + "Autor: " + librosregistrados[i].AutorLibro + "\n" + "Titulo: " + librosregistrados[i].tituloLibro + "\n" + "Codigo ISBN: " + librosregistrados[i].codigoISBNLibro + "\n" +"Disponibilidad: " + dispo  );
 
                     }
                 }

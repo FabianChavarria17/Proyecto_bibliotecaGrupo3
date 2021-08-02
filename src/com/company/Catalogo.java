@@ -1,7 +1,11 @@
 package com.company;
-import javax.swing.JOptionPane;
+import javax.swing.*;
+import com.company.*;
+import com.sun.tools.javac.Main;
 
-public class Catalogo {
+public class Catalogo{
+
+
 
     String codigoISBNLibro;
     String tituloLibro;
@@ -97,6 +101,8 @@ public class Catalogo {
 
         public static void SolicitarLibro(Catalogo[] librosregistrados){
             String titulo;
+
+
 
             titulo = JOptionPane.showInputDialog("Digite el titulo del libro:");
 

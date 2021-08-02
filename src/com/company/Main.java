@@ -1,9 +1,8 @@
 package com.company;
-
 import javax.swing.*;
-
+//Este proyecto fue realizado por Chavarría  Fabián  y Fuentes Andrey Universiad Fidelitas 2021
 public class Main {
-//Andrey fuentes
+
 
     public static void main(String[] args)
     {

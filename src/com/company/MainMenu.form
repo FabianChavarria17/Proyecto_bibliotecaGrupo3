@@ -2,7 +2,7 @@
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.MainMenu">
   <grid id="27dc6" binding="panel3" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
     <constraints>
-      <xy x="20" y="20" width="812" height="121"/>
+      <xy x="20" y="20" width="797" height="121"/>
     </constraints>
     <properties>
       <background color="-525058"/>

@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.DevolverLibro">
-  <grid id="27dc6" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
     <constraints>
-      <xy x="20" y="20" width="500" height="400"/>
+      <xy x="20" y="20" width="563" height="143"/>
     </constraints>
     <properties>
       <background color="-525058"/>
     </properties>
     <border type="none"/>
-    <children/>
+    <children>
+      <component id="d1e14" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <foreground color="-16777216"/>
+          <text value="¿Que libro desea devolver?"/>
+        </properties>
+      </component>
+      <component id="badf2" class="javax.swing.JTextField" binding="txtDevolver">
+        <constraints/>
+        <properties>
+          <background color="-3289651"/>
+          <columns value="25"/>
+        </properties>
+      </component>
+      <component id="d4db5" class="javax.swing.JButton" binding="btnDevolver">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-525058"/>
+          <text value="Devolver"/>
+        </properties>
+      </component>
+      <component id="67050" class="javax.swing.JButton" binding="btnReturnMenu">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-525058"/>
+          <text value="Volver al menu"/>
+        </properties>
+      </component>
+      <component id="ba749" class="javax.swing.JButton" binding="btnSalir">
+        <constraints/>
+        <properties>
+          <background color="-16777216"/>
+          <foreground color="-525058"/>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
   </grid>
 </form>

@@ -12,9 +12,7 @@ public class MainMenu extends JFrame {
     private JButton btnBuscar;
     private JButton btnDevolver;
     private JButton btnSalir;
-
-
-
+    private JButton solicitarLibroButton;
 
 
     public MainMenu(){

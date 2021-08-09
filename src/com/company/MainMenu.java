@@ -53,10 +53,14 @@ public class MainMenu extends JFrame {
                         } else{
                             dispo += "No";
                         }
+
                         JOptionPane.showMessageDialog(null, "Editorial: " + librosregistrados[i].editoralLibro + "\n" + "Autor: " + librosregistrados[i].AutorLibro + "\n" + "Titulo: " + librosregistrados[i].tituloLibro + "\n" + "Codigo ISBN: " + librosregistrados[i].codigoISBNLibro + "\n" +"Disponibilidad: " + dispo  );
 
+
                     }
+
                 }
+
 
             }
         });

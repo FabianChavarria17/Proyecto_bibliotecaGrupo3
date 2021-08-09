@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 
 public class DevolverLibro extends JFrame {
 
-    private JPanel panel1;
+    private JPanel panel3;
     private JTextField txtDevolver;
     private JButton btnDevolver;
     private JButton btnReturnMenu;
@@ -16,6 +16,7 @@ public class DevolverLibro extends JFrame {
         this.setVisible(true);
         this.setSize(300,300);
         this.setLocation(800,400);
+        this.setContentPane(panel3);
 
         //volver al menu
         btnReturnMenu.addActionListener(new ActionListener() {

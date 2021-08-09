@@ -52,6 +52,7 @@
       <component id="a5355" class="javax.swing.JButton" binding="solicitarLibroButton" default-binding="true">
         <constraints/>
         <properties>
+          <background color="-16777216"/>
           <text value="Solicitar libro"/>
         </properties>
       </component>

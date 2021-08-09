@@ -42,8 +42,8 @@ public class Registro extends JFrame {
                 obj.setPassword(Contraseña);
 
                 ListaUsuario.agregar(obj);
-                JOptionPane.showMessageDialog(null,"SE REGISTRÓ CORRECTAMENTE");}
-            else{
+                JOptionPane.showMessageDialog(null,"SE REGISTRÓ CORRECTAMENTE");
+            }else{
                 JOptionPane.showMessageDialog(null,"ESTE USERNAME YA ESYA EN USO ");
                 }
             }

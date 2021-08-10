@@ -35,7 +35,7 @@
         <constraints/>
         <properties>
           <background color="-3289651"/>
-          <columns value="15"/>
+          <columns value="30"/>
         </properties>
       </component>
       <component id="6b72b" class="javax.swing.JButton" binding="btnBuscar">

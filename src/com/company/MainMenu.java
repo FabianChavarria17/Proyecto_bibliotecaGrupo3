@@ -13,6 +13,7 @@ public class MainMenu extends JFrame {
     private JButton btnDevolver;
     private JButton btnSalir;
     private JButton solicitarLibroButton;
+    private JButton btnFactura;
 
 
     public MainMenu(){
@@ -113,6 +114,19 @@ public class MainMenu extends JFrame {
 
                     }
                 }
+
+            }
+        });
+
+        btnFactura.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                int precio = 100;
+                int dias = Integer.parseInt(JOptionPane.showInputDialog("Cuantos dias va a requerir el libro?"));
+                int total = precio*dias;
+                JOptionPane.showMessageDialog(null,"Su total es de: "+total);
+
+
 
             }
         });

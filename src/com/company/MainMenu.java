@@ -74,12 +74,11 @@ public class MainMenu extends JFrame {
 
             }
         });
-        btnDevolver.addActionListener(new ActionListener() {
+
+        solicitarLibroButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                DevolverLibro abrir = new DevolverLibro();
-                abrir.setVisible(true);
-                MainMenu.this.dispose();
+
             }
         });
     }

@@ -72,12 +72,47 @@ public class MainMenu extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
+                String devolverTitulo = txtBuscar.getText();
+
+                for (int i = 0; i < librosregistrados.length; i++){
+                    if(devolverTitulo.equals(librosregistrados[i].tituloLibro)){
+                        if(librosregistrados[i].dispLibro == false){
+                            JOptionPane.showMessageDialog(null,"Libro devuelto");
+                            librosregistrados[i].dispLibro = true;
+                            System.out.println(librosregistrados[i].dispLibro);
+
+                        } else if (librosregistrados[i].dispLibro == true){
+                            JOptionPane.showMessageDialog(null,"Libro ya fue devuelto");
+                        }
+
+
+                    }
+                }
+
+
             }
         });
 
         solicitarLibroButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
+                String solicitarTitulo = txtBuscar.getText();
+
+                for (int i = 0; i < librosregistrados.length; i++){
+                    if(solicitarTitulo .equals(librosregistrados[i].tituloLibro)){
+                        if(librosregistrados[i].dispLibro == true){
+                            JOptionPane.showMessageDialog(null,"Libro solicitado");
+                            librosregistrados[i].dispLibro = false;
+                            System.out.println(librosregistrados[i].dispLibro);
+
+                        } else if (librosregistrados[i].dispLibro == false){
+                            JOptionPane.showMessageDialog(null,"Libro no disponible");
+                        }
+
+
+                    }
+                }
 
             }
         });

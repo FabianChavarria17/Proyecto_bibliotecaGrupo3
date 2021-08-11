@@ -28,7 +28,7 @@
         <constraints/>
         <properties>
           <foreground color="-16777216"/>
-          <text value="Busador"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="c00e3" class="javax.swing.JTextField" binding="txtBuscar">

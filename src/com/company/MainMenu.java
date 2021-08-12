@@ -1,9 +1,10 @@
 package com.company;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
+
 import com.company.Catalogo;
+
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -16,13 +17,17 @@ public class MainMenu extends JFrame {
     private JButton btnSalir;
     private JButton solicitarLibroButton;
     private JButton btnFactura;
+    private JLabel lblMostrar;
+
 
 
     public MainMenu(){
+        super("Main menu");
         setContentPane(panel3);
         this.setVisible(true);
         this.setSize(400,300);
         this.setLocation(800,400);
+
 
         Catalogo libro1 = new Catalogo("1010", "Don Quijote", "Rafael Garcia Marquez", "Patito",true);
         Catalogo libro2 = new Catalogo("1011", "Harry Potter", "Mario Martinez", "Universal",true);

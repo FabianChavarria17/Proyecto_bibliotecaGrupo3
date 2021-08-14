@@ -14,17 +14,9 @@
         <properties>
           <foreground color="-16777216"/>
           <opaque value="false"/>
-          <text value="Bienvenido"/>
+          <text value="Bienvenido!"/>
           <verifyInputWhenFocusTarget value="true"/>
           <verticalAlignment value="0"/>
-        </properties>
-      </component>
-      <component id="86b68" class="javax.swing.JLabel" binding="lblMostrar">
-        <constraints/>
-        <properties>
-          <enabled value="true"/>
-          <requestFocusEnabled value="true"/>
-          <text value=""/>
         </properties>
       </component>
       <component id="a1add" class="javax.swing.JLabel">
@@ -32,7 +24,7 @@
         <properties>
           <background color="-525058"/>
           <foreground color="-16777216"/>
-          <text value="¿Qué desea realizar el día de hoy?"/>
+          <text value="Digite el nombre del libro o el codigo ISBN:"/>
         </properties>
       </component>
       <component id="c00e3" class="javax.swing.JTextField" binding="txtBuscar">
@@ -50,9 +42,6 @@
           <text value="Buscar disponibilidad"/>
         </properties>
       </component>
-      <vspacer id="1642b">
-        <constraints/>
-      </vspacer>
       <component id="a5355" class="javax.swing.JButton" binding="solicitarLibroButton" default-binding="true">
         <constraints/>
         <properties>

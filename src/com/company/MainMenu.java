@@ -17,15 +17,14 @@ public class MainMenu extends JFrame {
     private JButton btnSalir;
     private JButton solicitarLibroButton;
     private JButton btnFactura;
-    private JLabel lblMostrar;
-
 
 
     public MainMenu(){
-        super("Main menu");
+        super("Main Menu");
         setContentPane(panel3);
         this.setVisible(true);
-        this.setSize(400,300);
+        this.setResizable(false);
+        this.setSize(500,400);
         this.setLocation(800,400);
 
 
@@ -61,7 +60,7 @@ public class MainMenu extends JFrame {
                         }
 
 
-                        JOptionPane.showMessageDialog(null, "Editorial: " + librosregistrados[i].editoralLibro + "\n" + "Autor: " + librosregistrados[i].AutorLibro + "\n" + "Titulo: " + librosregistrados[i].tituloLibro + "\n" + "Codigo ISBN: " + librosregistrados[i].codigoISBNLibro + "\n" +"Disponibilidad: " + dispo  );
+                        JOptionPane.showMessageDialog(null, "Editorial: " + librosregistrados[i].editoralLibro + "\n" + "Autor: " + librosregistrados[i].AutorLibro + "\n" + "Titulo: " + librosregistrados[i].tituloLibro + "\n" + "Codigo ISBN: " + librosregistrados[i].codigoISBNLibro + "\n" +"Disponible: " + dispo  );
 
                     }
                 }

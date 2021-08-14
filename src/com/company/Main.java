@@ -8,6 +8,7 @@ public class Main {
     {
         Login abrir = new Login();
         abrir.setSize(300,300);
+        abrir.setResizable(false);
         abrir.setVisible(true);
 
 

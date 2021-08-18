@@ -28,20 +28,36 @@ public class MainMenu extends JFrame {
         this.setLocation(800,400);
 
 
-        Catalogo libro1 = new Catalogo("1010", "Don Quijote", "Rafael Garcia Marquez", "Patito",true);
-        Catalogo libro2 = new Catalogo("1011", "Harry Potter", "Mario Martinez", "Universal",true);
-        Catalogo libro3 = new Catalogo("1012", "Maze Runner", "Viviana Zeledon", "Alba",true);
-        Catalogo libro4 = new Catalogo("1013", "Sinsajo", "Pedro Fuente", "Critica",true);
-        Catalogo libro5 = new Catalogo("1014", "Biblioteca de los Muertos", "Carlos Mora", "Gredos",true);
+        Catalogo libro1 = new Catalogo("1010", "Don Quijote", "Miguel de Cervantes", "Lengua Viva",true);
+        Catalogo libro2 = new Catalogo("1011", "Harry Potter y la piedra filosofal", "J.K. Rowling", "Salamandra Bolsillo",true);
+        Catalogo libro3 = new Catalogo("1012", "Maze Runner", "James Dashner", "Delacorte Press",true);
+        Catalogo libro4 = new Catalogo("1013", "Sinsajo", "Suzanne Collins", "Turtleback Books",true);
+        Catalogo libro5 = new Catalogo("1014", "Biblioteca de los Muertos", "Glenn Cooper", "Grijalbo",true);
+        Catalogo libro6 = new Catalogo("1015", "El Hobbit", "J.R.R Tolkien", "Norma",true);
+        Catalogo libro7 = new Catalogo("1016", "1984", "George Orwell", "Baker Street Press",true);
+        Catalogo libro8 = new Catalogo("1017", "Hamlet", "William Shakespeare", "Baker Street Press",true);
+        Catalogo libro9 = new Catalogo("1018", "Dracula", "Bram Stoker", "Dover Publications",true);
+        Catalogo libro10 = new Catalogo("1019", "Un Mago de Terramar", "Ursula K. Le Guin", "Minotauro",true);
+        Catalogo libro11 = new Catalogo("1020", "Orgullo y Prejuicio", "Jane Austen", "Penguin",true);
+        Catalogo libro12 = new Catalogo("1021", "Los Pilares de la Tierra", "Ken Follett", "Plaza & Janes",true);
+        Catalogo libro13 = new Catalogo("1022", "El Principito", "Antoine de Saint-Exupéry", "Salamandra",true);
 
 
-        Catalogo librosregistrados[] = new Catalogo[5];
+        Catalogo librosregistrados[] = new Catalogo[12];
 
         librosregistrados[0] = libro1;
         librosregistrados[1] = libro2;
         librosregistrados[2] = libro3;
         librosregistrados[3] = libro4;
         librosregistrados[4] = libro5;
+        librosregistrados[5] = libro6;
+        librosregistrados[6] = libro7;
+        librosregistrados[7] = libro8;
+        librosregistrados[8] = libro9;
+        librosregistrados[9] = libro10;
+        librosregistrados[10] = libro11;
+        librosregistrados[11] = libro12;
+        librosregistrados[12] = libro13;
 
         btnBuscar.addActionListener(new ActionListener() {
             @Override
